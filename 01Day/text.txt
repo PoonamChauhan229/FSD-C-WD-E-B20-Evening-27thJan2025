@@ -179,7 +179,7 @@ x>5 || x>15 >> true
 5<"Suman" >>false
 5>"Suman" >>false
 5=="Suman">>false
-"5"<"12"  >>false
-"5">"12"  >>true
+"5"<"12"  >>false    5 1
+"5">"12"  >>true     5 1  
 "5"=="12" >>false
 

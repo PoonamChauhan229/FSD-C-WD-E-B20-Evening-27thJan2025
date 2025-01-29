@@ -56,4 +56,30 @@ for(let i=0;i<arr.length;i++){
     console.log(i,arr[i],arr[i]+2)
 }
     
+// While loop
+// while(condition){
+    // code to be exceuted
+// }
+console.log("-------while---------")
+// Print 1 to 5
+// start 1 end 5
+let j=1;
+while(j<6){
+    console.log(j)
+    j++;
+}
 
+console.log("------do-while---------")
+// Runs at least 1
+let num=10;
+// let num=1 >> Infinite Loops
+do{
+    console.log("Printing")
+}while(num<5) // 
+
+// do while 1 to 5
+let count=1;
+do{
+    console.log(count);
+    count++;
+}while(count<6)

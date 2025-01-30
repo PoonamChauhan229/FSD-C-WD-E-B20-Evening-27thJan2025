@@ -49,6 +49,29 @@ let test2=()=>{
 }
 console.log(test2())
 
-
-// arr=[12,23,45]
+console.log("-----------------")
+let arr5=[12,23,45,90,100]
 // 12+23+45 =80
+
+function addition(arr){
+    console.log(arr)
+    // perfoem addition
+    console.log(arr[0]+arr[1]+arr[2])
+    // loop >> 12 ....45
+    let sum=0; // accumulator >> storing >>> addition 
+    for(let i=0;i<arr.length;i++){
+       // console.log(i,arr[i])
+        // sum=sum+arr[i]
+        sum+=arr[i]
+        // console.log("sum:",sum)
+    }
+    console.log("sum:",sum)
+
+}
+addition(arr5)
+
+// sum=0
+// sum=0 +12  = 12
+// sum=12+23 = 35
+// sum=35+45 = 80
+// sum=80+90 = 170

@@ -95,6 +95,8 @@ submitBtn.addEventListener('click',()=>{
                 <h2>You Scored ${score}/${quizData.length}</h2>
                 <button class="submitBtn" onClick=location.reload()>Reload</button>
             `)
+            document.body.style.backgroundColor="red"
+            // document.body.style.backgroundImage="url('https://i.pinimg.com/originals/07/03/48/0703483f8e3100d87497817030fb903f.gif')"
         }
     }
     console.log("show next QUestion",currentQuizCount)
